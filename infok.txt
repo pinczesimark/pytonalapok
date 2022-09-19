@@ -3,3 +3,4 @@ system("cls")
 memória kezelés minden infó változóban eltárolva
 python - tipusfüggetlen => dinamikus memóriakezelés
 használt beépített tipusok: str,int,float,list,bool
+explicit a tipuskonverzio - én magam irom be a kódba a tipusváltoztatást: szam = int(be)
