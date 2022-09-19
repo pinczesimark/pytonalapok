@@ -1,11 +1,10 @@
 from os import system
+from selectors import EpollSelector
 
 system('cls')
 
 elsovaltozo = 12
 
-print(elsovaltozo)
+kiir = "A változó értéke: " + str(elsovaltozo)
 
-elsovaltozo = "A 10_a a legjobb"
-
-print(elsovaltozo)
+print(kiir)
